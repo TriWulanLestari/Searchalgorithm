@@ -52,6 +52,10 @@ namespace Searchalgorithm
                 //apply binary search
                 int lowerboand = 0;
                 int upperboand = n - 1;
+
+                //obtain the index of the middle elements
+                int mid = (lowerboand + upperboand) / 2;
+                int ctr = 1;
             }
         }
         static void Main(string[] args)
