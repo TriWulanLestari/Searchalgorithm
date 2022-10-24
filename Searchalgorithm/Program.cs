@@ -12,6 +12,8 @@ namespace Searchalgorithm
         int[] arr = new int[20];
         //number off element in the array
         int n;
+        //Get the number of elements to store in the array
+        int i;
         static void Main(string[] args)
         {
         }
