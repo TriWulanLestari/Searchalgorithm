@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -76,7 +77,17 @@ namespace Searchalgorithm
                 Console.Write("\nContinue search (y/n):");
                 ch = char.Parse(Console.ReadLine());
 
-            } while ((ch == "y") || (ch == "Y"));
+            } while((ch == 'y') || (ch == 'Y'));
+        }
+        public void LinearSearch()
+        {
+            char ch;
+            //search for number of comparison
+            int ctr;
+            do
+            {
+
+            }
         }
         static void Main(string[] args)
         {
