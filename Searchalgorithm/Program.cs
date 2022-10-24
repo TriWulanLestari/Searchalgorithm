@@ -56,6 +56,17 @@ namespace Searchalgorithm
                 //obtain the index of the middle elements
                 int mid = (lowerboand + upperboand) / 2;
                 int ctr = 1;
+
+                //loop to search for the elements in the array
+                while ((item != arr[mid]) && (lowerboand <= upperboand))
+                {
+                    if (item > arr[mid])
+                        lowerboand = mid = 1;
+                    else
+                        upperboand = mid - 1;
+                    mid = (lowerboand + upperboand) / 2;
+                    ctr++;
+                }
             }
         }
         static void Main(string[] args)
