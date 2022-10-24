@@ -48,6 +48,10 @@ namespace Searchalgorithm
                 //Accept the number to be searched 
                 Console.Write("\nEnter element want you to search: ");
                 int item = Convert.ToInt32(Console.ReadLine());
+
+                //apply binary search
+                int lowerboand = 0;
+                int upperboand = n - 1;
             }
         }
         static void Main(string[] args)
